@@ -96,6 +96,24 @@ h2:after {
     line-height: 145%;
 }
 /*-------------------------------------------*/
+/* links */
+/*-------------------------------------------*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border 0.3s, color 0.3s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+/*-------------------------------------------*/
 /* buttons */
 /*-------------------------------------------*/
 .btn:link,
@@ -215,14 +233,14 @@ header {
     text-align: center;
     color: #e67e22;
     font-size: 120%;
+    margin-right: 10px;
+    /*secrets to aling text and icons*/
     line-height: 120%;
     vertical-align: middle;
+    margin-top: -4px;
 
-    /*
-    secrets to aling text and icons
-    line-height: 120%;
-    vertical-align: middle;
-    */
+
+    
 }
 /*-------------------------------------------*/
 /* meals */
@@ -306,6 +324,11 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: none;
 }
 
 .btn-app img {
