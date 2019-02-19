@@ -528,13 +528,25 @@ footer {
     color: #ddd;
 }
 
-.social-link li a:hover,
-.social-link li a:active {
+.social-link li a:link,
+.social-link li a:visited {
     font-size: 180%;
 }
 
 .ion-social-facebook:hover {
     color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #ddab39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
 }
 
 footer p {
